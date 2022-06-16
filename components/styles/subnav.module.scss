@@ -1,0 +1,14 @@
+.subnav{
+  padding: 5px 12px;
+  border-bottom: 2px solid darkblue;
+  &__navigation{
+    display: flex;
+    justify-content: space-between;
+    li{
+      list-style: none;
+      cursor: pointer;
+      color: dodgerblue;
+      font-size: 1.4rem;
+    }
+  }
+}
